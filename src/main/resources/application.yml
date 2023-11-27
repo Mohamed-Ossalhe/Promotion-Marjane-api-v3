@@ -1,0 +1,18 @@
+server:
+  port: 8080
+spring:
+  main:
+    web-application-type: servlet
+  datasource:
+    url: jdbc:postgresql://localhost:5432/promotion-1
+    username: postgres
+    password: mohamed1234
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+  security:
+    user:
+      password: mohamed1234
+      name: mohamed
